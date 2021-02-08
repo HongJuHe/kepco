@@ -1,0 +1,50 @@
+[
+    {
+        "index":"MJU_01",
+        "parent":[]
+    },
+    {
+        "index":"INHA_02",
+        "parent":[]
+    },
+    {
+        "index":"INHA_03",
+        "parent":["INHA_02", "KPU_DA"]
+    },
+    {
+        "index":"INHA_04",
+        "parent":["INHA_03"]
+    },
+    {
+        "index":"INHA_05",
+        "parent":["INHA_02", "INHA_04"]
+    },
+    {
+        "index":"POS_PV",
+        "parent":[]
+    },
+    {
+        "index":"POSTECH_07",
+        "parent":["KPU_DA"]
+    },
+    {
+        "index":"POS_SE",
+        "parent":["POSTECH_07", "KPU_RT"]
+    },
+    {
+        "index":"POSTECH_09",
+        "parent":["INHA_04"]
+    },
+    {
+        "index":"KPU_SF",
+        "parent":["INHA_02", "POS_PV"]
+    },
+    {
+        "index":"KPU_DA",
+        "parent":["KPU_SF"]
+    },
+    {
+        "index":"KPU_RT",
+        "parent":["INHA_04", "POSTECH_07", "POS_SE", "KPU_SF"]
+    }
+]
