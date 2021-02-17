@@ -1,0 +1,109 @@
+{
+  "url": "http://localhost:3000/cmd",
+  "groups": [
+    {
+      "title": "명지대학교",
+      "modules": [
+        {
+          "title": "1번 모듈",
+          "description": "상태감시진단",
+          "index": "MJU_1",
+          "arguments": "arg1 arg2",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "title": "인하대학교",
+      "modules": [
+        {
+          "title": "2번 모듈",
+          "description": "PV 발전량 예측",
+          "index": "INHA_2",
+          "arguments": "arg1",
+          "fixed": false
+        },
+        {
+          "title": "3번 모듈",
+          "description": "P2P 입찰",
+          "index": "INHA_3",
+          "arguments": "arg1 arg2 arg3",
+          "fixed": false
+        },
+        {
+          "title": "4번 모듈",
+          "description": "P2P 매칭",
+          "index": "INHA_4",
+          "arguments": "arg1 arg2",
+          "fixed": false
+        },
+        {
+          "title": "5번 모듈",
+          "description": "디지털 트윈",
+          "index": "INHA_5",
+          "arguments": "arg1 arg2",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "title": "포항공과대학교",
+      "modules": [
+        {
+          "title": "6번 모듈",
+          "description": "PV 발전량 예측",
+          "index": "POSTECH_6",
+          "arguments": "arg1",
+          "fixed": false
+        },
+        {
+          "title": "7번 모듈",
+          "description": "발전고장 ED",
+          "index": "POSTECH_7",
+          "arguments": "arg1",
+          "fixed": false
+        },
+        {
+          "title": "8번 모듈",
+          "description": "분산 상태 추정",
+          "index": "POSTECH_8",
+          "arguments": "RT_Pnet",
+          "fixed": false
+        },
+        {
+          "title": "9번 모듈",
+          "description": "거래 보안",
+          "index": "POSTECH_9",
+          "arguments": "arg1 arg2",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "title": "한국산업기술대학교",
+      "modules": [
+        {
+          "title": "10번 모듈",
+          "description": "SMP 예측",
+          "index": "KPU_10",
+          "arguments": "pred_PV",
+          "fixed": false
+        },
+        {
+          "title": "11번 모듈",
+          "description": "전일 시장",
+          "index": "KPU_11",
+          "arguments": "smp",
+          "fixed": false
+        },
+        {
+          "title": "12번 모듈",
+          "description": "실시간 시장",
+          "index": "KPU_12",
+          "arguments": "arg1 arg2",
+          "fixed": false
+        }
+      ]
+    }
+  ]
+}
