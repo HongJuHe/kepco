@@ -51,8 +51,6 @@ router.post('/', function(req,res, next) {
 
 router.get('/', function(req, res, next){
 
-  console.log("get...")
-
   res.status(200).json({
       script : _exec.join(' '),
       result : req_info.result
